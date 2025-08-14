@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_2303" data-name="Retângulo 2303" width="16" height="16" transform="translate(568 651)" fill="#686868"/>
+    </clipPath>
+  </defs>
+  <g id="clip" transform="translate(-568 -651)" clip-path="url(#clip-path)">
+    <path id="clip-2" data-name="clip" d="M15.3,6.4a.666.666,0,0,0-.942,0l-7.259,7.29A3.333,3.333,0,1,1,2.381,8.976L9.411,1.917a2,2,0,1,1,2.828,2.827L5.208,11.8a.681.681,0,0,1-.942,0,.666.666,0,0,1,0-.942l6.259-6.288a.666.666,0,1,0-.942-.942L3.324,9.918a2,2,0,0,0,0,2.828,2.048,2.048,0,0,0,2.828,0l7.03-7.06A3.332,3.332,0,1,0,8.469.974L1.438,8.034a4.665,4.665,0,0,0,6.6,6.6L15.3,7.343a.666.666,0,0,0,0-.945Z" transform="translate(568.218 651.002)" fill="#686868"/>
+  </g>
+</svg>

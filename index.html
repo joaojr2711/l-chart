@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Whatsapp</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <img
+                        src="https://randomuser.me/api/portraits/men/3.jpg"
+                        alt="profile"
+                        class="photo-user"
+                    />
+                    <span class="text-user-name">Contato</span>
+                </div>
+                <div class="conversation-list">
+                    <div class="search-container">
+                        <input type="text" placeholder="Search" />
+                        <img src="assets/search.svg" alt="search" />
+                    </div>
+
+                    <div id="conversation-list-chat"></div>
+                </div>
+            </div>
+            <div class="chat hidden" id="chat">
+                <div class="chat-header">
+                    <img
+                        src="https://randomuser.me/api/portraits/men/3.jpg"
+                        alt="profile"
+                        class="photo-user"
+                    />
+                    <span class="text-user-name" id="text-user-name"
+                        >Contato</span
+                    >
+                </div>
+                <div class="chat-messages">
+                    <div class="messages" id="messages"></div>
+                </div>
+                <form id="formChat">
+                    <div class="chat-input">
+                        <img src="assets/emoji.svg" alt="emoji" class="icon" />
+                        <img src="assets/clip.svg" alt="clip" class="icon" />
+                        <input
+                            type="text"
+                            id="message"
+                            placeholder="Digite uma mensagem"
+                        />
+                        <button type="submit">
+                            <span>
+                                <svg
+                                    viewBox="0 0 24 24"
+                                    height="24"
+                                    width="24"
+                                    preserveAspectRatio="xMidYMid meet"
+                                    class="btn-send"
+                                    version="1.1"
+                                >
+                                    <path
+                                        fill="currentColor"
+                                        d="M1.101,21.757L23.8,12.028L1.101,2.3l0.011,7.912l13.623,1.816L1.112,13.845 L1.101,21.757z"
+                                    ></path>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div id="phoneModal" class="modal">
+                <div class="modal-content">
+                    <h3>Digite o número de telefone</h3>
+                    <input type="text" id="phoneInput" placeholder="+55" />
+                    <button id="confirmPhone">Abrir Chat</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/utils.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/modal.js"></script>
+        <script src="js/chat.js"></script>
+    </body>
+</html>
